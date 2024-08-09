@@ -21,7 +21,7 @@ const Dashboard = ({ setShowSideMenu }) => {
     <div className="dashboard">
       <GiHamburgerMenu
         size={25}
-        className="m-1 absolute top-2 left-2 cursor-pointer hover:scale-125 duration-200 show-menu-button"
+        className="m-1 absolute top-6 left-1 cursor-pointer hover:scale-125 duration-200 show-menu-button"
         onClick={() => setShowSideMenu(true)}
       />
       <Header name={'John'}/>
